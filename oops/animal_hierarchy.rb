@@ -2,6 +2,10 @@ class Animal
   def make_sound
     return "The animal makes a sound"
   end
+
+  def describe_animal
+    "#{self.class} make sound '#{make_sound}'"
+  end
 end
 
 class Dog < Animal
@@ -19,5 +23,5 @@ end
 dog = Dog.new
 cat = Cat.new
 
-puts "Cat sound #{cat.make_sound}"
-puts "Dog sound #{dog.make_sound}"
+puts "#{cat.describe_animal}"
+puts "#{dog.describe_animal}"
