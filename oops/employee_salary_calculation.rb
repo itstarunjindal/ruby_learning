@@ -34,7 +34,6 @@ puts manager.display_details
 manager.bonus(1000)
 puts manager.display_details
 
-
 developer = Developer.new("xyz",1000)
 puts developer.display_details
 developer.increment(10)
