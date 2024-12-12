@@ -36,4 +36,3 @@ student.add_grade(45)
 student.add_grade(78)
 student.calculate_avg
 
-
