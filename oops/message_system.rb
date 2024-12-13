@@ -2,6 +2,7 @@ class Message
   def send_message
     raise NotImplementedError, "#{self.class} must have send_message method"
   end
+  
 end
 
 class EmailMessage < Message
