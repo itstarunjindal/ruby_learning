@@ -22,4 +22,3 @@ class Calculator
   end
 end
 
-

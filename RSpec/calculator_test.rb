@@ -67,3 +67,4 @@ RSpec.describe 'Division' do
     expect {calculator.division(9,3)}.not_to raise_error
   end
 end
+
