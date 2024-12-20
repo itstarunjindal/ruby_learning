@@ -1,0 +1,7 @@
+## linear search ##
+Advantage:
+find the element even if array is not sorted
+
+Disadvantage:
+takes time complexity o(n)
+
