@@ -1,22 +1,25 @@
-# require 'csv'
+# # require 'csv'
 
-# class FileParser
-#   def initialize(content)
-#     @content = content
-#   end
+# # class FileParser
+# #   def initialize(content)
+# #     @content = content
+# #   end
 
-#   def parse
-#     begin
-#       # puts "================>>>>>>>>"+@content
-#       return [] if @content.strip.empty?
-#       CSV.parse(@content, headers: true).map do |row|
-#         row.map { |header, value| "#{header} => #{value}" }.join(', ')
-#       end
-#     rescue Errno::ENOENT => e
-#       "File not found"
-#     end
-#   end
-# end
+# #   def parse
+# #     begin
+# #       # puts "================>>>>>>>>"+@content
+# #       return [] if @content.strip.empty?
+# #       CSV.parse(@content, headers: true).map do |row|
+# #         row.map { |header, value| "#{header} => #{value}" }.join(', ')
+# #       end
+# #     rescue Errno::ENOENT => e
+# #       "File not found"
+# #     end
+# #   end
+# # end
+
+
+
 class FileError < StandardError; end
 
 require 'csv'

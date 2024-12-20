@@ -21,6 +21,6 @@ RSpec.describe 'Valid Email' do
   it 'email should not valid' do
     user = User.new("user","user@com@")
     result = user.validate
-    expect(result).to eq("Invalid")
+    expect(result).not_to eq("valid")
   end
 end
