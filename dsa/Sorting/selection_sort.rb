@@ -3,7 +3,7 @@ def selection(arr)
   (0..n-1).each do |i|
     min_index = i
     (i+1..n-1).each do |j|
-      min_index = j if arr[min_index]<arr[i]
+      min_index = j if arr[j]<arr[min_index]
     end
     arr[i],arr[min_index] = arr[min_index],arr[i]
   end
