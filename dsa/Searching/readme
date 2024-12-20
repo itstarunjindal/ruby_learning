@@ -5,3 +5,9 @@ find the element even if array is not sorted
 Disadvantage:
 takes time complexity o(n)
 
+## binary search ##
+Advantage:
+takes less time complexity o(log n)
+
+Disadvantage:
+only applicable on sorted array
