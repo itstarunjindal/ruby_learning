@@ -1,7 +1,8 @@
 def peak(arr)
   low = 0
   high = arr.length-1
-  mid = low+(high - low)/2
+  # mid = low+(high - low)/2
+  mid = (low+high)/2
   while low<high 
     # mid = (low+high)/2
     if arr[mid] < arr[mid+1]
@@ -9,7 +10,8 @@ def peak(arr)
     else
       high = mid
     end
-    mid = low+(high - low)/2
+    # mid = low+(high - low)/2
+    mid = (low+high)/2
   end
   return low
 end
