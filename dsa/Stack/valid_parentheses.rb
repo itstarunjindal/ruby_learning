@@ -2,7 +2,7 @@ require_relative 'stack_class'
 
 def isValid(string)
   stack = Stack.new
-  for i in 0..string.length-1
+  for i in 0...string.length
     s = string[i]
     if(stack.isEmpty)
       stack.push(s)
